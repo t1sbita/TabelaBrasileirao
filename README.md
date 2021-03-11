@@ -1,24 +1,19 @@
-# campeonato-brasileiro
+# <center> App para consulta da tabela da Série A do Brasileirão
 
-## Project setup
+## Aplicativo desenvolvido com Vue.js, para fins de aprendizado
+
+<br><br/>
+## Configuração do projeto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compilação e execução em ambiente de desenvolvimento
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilação para ambiente de produção
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
