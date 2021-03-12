@@ -11,12 +11,6 @@
 
         <v-toolbar-title>Campeonato Brasileiro ⚽</v-toolbar-title>
 
-        <v-spacer></v-spacer>
-
-        <v-btn icon>
-            <v-icon>mdi-magnify</v-icon>
-        </v-btn>
-
         </v-app-bar>  
         
         <v-navigation-drawer
@@ -88,5 +82,7 @@ export default {
 </script>
 
 <style>
-
+    .app-top-bar a{
+        text-decoration: none; 
+    }
 </style>
