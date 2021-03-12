@@ -3,20 +3,18 @@
     <AppTopBar/>
     
     <v-main>
-      <PaginaInicial/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import PaginaInicial from './components/PaginaInicial'
 import AppTopBar from './components/shared/AppTopBar'
 
 export default {
   name: 'App',
 
   components: {
-    PaginaInicial,
     AppTopBar
   },
 

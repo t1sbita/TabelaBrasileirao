@@ -32,26 +32,43 @@
             v-model="group"
             active-class="green--text text--accent-4"
             >
-            <v-list-item>
-                <v-list-item-icon>
-                <v-icon>mdi-home</v-icon>
-                </v-list-item-icon>
-                <v-list-item-title>Início</v-list-item-title>
-            </v-list-item>
 
-            <v-list-item>
-                <v-list-item-icon>
-                <v-icon>mdi-format-list-bulleted</v-icon>
-                </v-list-item-icon>
-                <v-list-item-title>Classificação</v-list-item-title>
-            </v-list-item>
+            <router-link to="/">
+                <v-list-item>
+                    <v-list-item-icon>
+                        <v-icon>mdi-home</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-title>Início</v-list-item-title>
+                </v-list-item>
+            </router-link>
 
-            <v-list-item>
-                <v-list-item-icon>
-                <v-icon>mdi-github</v-icon>
-                </v-list-item-icon>
-                <v-list-item-title>GitHub</v-list-item-title>
-            </v-list-item>
+            <router-link to="/classificacao">
+                <v-list-item>
+                    <v-list-item-icon>
+                        <v-icon>mdi-format-list-bulleted</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-title>Classificação</v-list-item-title>
+                </v-list-item>
+            </router-link>
+
+            <a href="https://github.com/t1sbita/TabelaBrasileirao">
+                <v-list-item>
+                    <v-list-item-icon>
+                        <v-icon>mdi-github</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-title>GitHub</v-list-item-title>
+                </v-list-item>
+            </a>
+
+            <router-link to="/about">
+                <v-list-item>
+                    <v-list-item-icon>
+                        <v-icon>mdi-account</v-icon>
+                    </v-list-item-icon>
+                    <v-list-item-title>Sobre mim</v-list-item-title>
+                </v-list-item>
+            </router-link>
+
             </v-list-item-group>
         </v-list>
         </v-navigation-drawer>
